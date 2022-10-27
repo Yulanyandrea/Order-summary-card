@@ -14,6 +14,8 @@ body {
   align-items: center;
   padding: 10%;
   background-image: url('./Components/OrderSummary/images/background-mobile.svg');
+  background-repeat: no-repeat;
+  background-color:#c4d2ff;
 }
 
 
