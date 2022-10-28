@@ -128,7 +128,7 @@
 
 @media (min-width:1200px) {
     body{
-        background-image: url('./images/background-desktop.svg');
+        background-image: url('../../../public/images/background-desktop.svg');
     }
     
     #container{

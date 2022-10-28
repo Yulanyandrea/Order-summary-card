@@ -1,6 +1,7 @@
 import './styles.css'
-import hero from './images/hero.svg';
-import music from './images/music.svg'
+// import hero from "/images/hero.svg"
+// import music from "../../images/music.svg"
+
 
 
 function OrderSummary(){
@@ -8,7 +9,7 @@ function OrderSummary(){
 
        < div id='container'> 
             <header className='principal_image'>
-                <img id='hero'src={hero} />
+                <img id='hero'src="/images/hero.svg" />
                 <h1>Order Summary</h1>
                 <p>You can now listen to millions of song,
                     audiobooks, and podcast on any device
@@ -17,7 +18,8 @@ function OrderSummary(){
             </header>
             <div className="plan">
                 <div className="music">
-                    <img src={music} />
+                    {/* <img src={music} /> */}
+                    <img src="/images/music.svg" />
                 </div>
                 <div className="annualPlan">
                     <p id='plan'>Annual Plan</p>
