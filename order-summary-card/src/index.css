@@ -16,6 +16,7 @@ body {
   background-image: url('../public/images/background-mobile.svg');
   background-repeat: no-repeat;
   background-color:#c4d2ff;
+  background-size: contain;
 }
 
 
